@@ -1,0 +1,112 @@
+header {
+    background: rgb(180, 180, 180);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 22px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    transition-duration: 2ms;
+    color: rgb(201, 223, 10);
+    text-decoration: underline;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #000;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: orangered;
+    transition: 1s all;
+    transform: scale(1.2);
+}
+
+
+footer {
+    text-align: center;
+    background-image: url('/img/bg.jpg');
+    padding: 40px 0;
+}
+
+.copyright {
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0 ;
+}
+
+table {
+    margin: 20px 0 40px;
+
+}  
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td , th{
+    border: 1px solid black;
+    padding: 10px 15px;
+}
